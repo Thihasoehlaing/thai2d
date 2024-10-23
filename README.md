@@ -14,3 +14,4 @@ getStockData().then(data => {
   console.log(data);  // { number: 24, set: '1,470.32', value: '57,044.51' }
 }).catch(error => console.error(error));
 ```# thai2d
+# thai2d
