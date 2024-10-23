@@ -1,0 +1,23 @@
+{
+  "name": "thai2d-crawler",
+  "version": "1.0.0",
+  "description": "Thai 2d (number, set, value) crawler from Thai Set Index.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "author": "Thiha Soe Hlaing",
+  "license": "ISC",
+  "keywords": [
+    "thai2d",
+    "thai-2d",
+    "thai2d-crawler"
+  ],
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "puppeteer": "^23.6.0"
+  }
+}
