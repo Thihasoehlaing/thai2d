@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/Thihasoehlaing/thai2d/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Thihasoehlaing/thai2d/actions/workflows/npm-publish.yml)
+
 # thai2d
 thai2d is an npm package that uses Puppeteer to scrape stock data from the Thai Stock Exchange website. It extracts the SET index and total value from the site and provides useful numerical insights by combining the last digit of the index and the number before the decimal in the total value.
 
