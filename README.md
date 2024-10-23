@@ -3,15 +3,20 @@ thai2d-crawler is an npm package that uses Puppeteer to scrape stock data from t
 
 ## Installation
 ```bash
-    npm install thai2d-crawler
+npm install thai2d-crawler
 ```
 
 ## Usage
 ```javascript
-    const getStockData = require('thai2d-crawler');
+const getStockData = require('thai2d-crawler');
 
-    getStockData().then(data => {
-        console.log(data);  // { number: 24, set: '1,470.32', value: '57,044.51' }
-    }).catch(error => console.error(error));
-    
+getStockData().then(data => {
+    console.log(data);  // { number: 24, set: '1,470.32', value: '57,044.51' }
+}).catch(error => console.error(error));
+
+```
+
+## Testing
+```bash
+npm test
 ```
