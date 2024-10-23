@@ -1,5 +1,5 @@
 {
-  "name": "thai2d-crawler",
+  "name": "thai2d",
   "version": "1.0.0",
   "description": "Thai 2d (number, set, value) crawler from Thai Set Index.",
   "main": "index.js",
